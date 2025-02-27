@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+body{
+    background-color: #E6CCB2;
+}
+
+h1{
+    font-family: "Playwrite IT Moderna", cursive;
+    text-align:center;
+    text-shadow: 1px 1px 2px rgba(0,0,0.3);
+    font-weight: 600;
+    font-size: 90px;
+    color: #9C6644;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
