@@ -1,18 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 
-body{
-    background-color: #E6CCB2;
+body {
+    background-image: url("./img/52805477_9344748.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+
 }
 
-h1{
+h1 {
     font-family: "Playwrite IT Moderna", cursive;
-    text-align:center;
-    text-shadow: 1px 1px 2px rgba(0,0,0.3);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0.3);
     font-weight: 600;
     font-size: 90px;
     color: #9C6644;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
+.menutitle{
+    font-family: "Playwrite IT Moderna", cursive;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0.3);
+    font-weight: 600;
+    font-size: 40px;
+    color: #9C6644;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.card {
+    max-width: 350px;
+    font-family: "Playwrite IT Moderna", cursive;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: #ede0d4;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0.2);
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0.2);
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0px 8px 15px rgba(0,0,0.3);
+}
