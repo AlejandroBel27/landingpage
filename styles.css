@@ -4,6 +4,7 @@ body {
     background-image: url("./img/52805477_9344748.jpg");
     background-repeat: repeat;
     background-size: contain;
+    padding-bottom: 20px;
 
 }
 
@@ -19,7 +20,7 @@ h1 {
     justify-content: center;
 }
 
-.menutitle{
+h2 {
     font-family: "Playwrite IT Moderna", cursive;
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0.3);
@@ -31,11 +32,23 @@ h1 {
     justify-content: center;
 }
 
+h3{
+    font-family: "Playwrite IT Moderna", cursive;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0.3);
+    font-weight: 600;
+    font-size: 30px;
+    color: #9C6644;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items:center;
+    align-items: center;
     padding: 20px;
     gap: 30px;
 }
@@ -44,7 +57,7 @@ h1 {
     max-width: 350px;
     font-family: "Playwrite IT Moderna", cursive;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
     border-radius: 10px;
@@ -60,7 +73,55 @@ h1 {
     box-shadow: 0px 4px 10px rgba(0, 0, 0.2);
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-15px);
-    box-shadow: 0px 8px 15px rgba(0,0,0.3);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0.3);
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.imagen img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0.2);
+}
+
+.imagen:hover {
+    transform: translateY(-15px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0.3);
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    padding-bottom: 10px;
+    background-color: #ede0d4;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0.3);
+}
+.horariomap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horariomap p{
+    font-family: "Playwrite IT Moderna", cursive;
+    font-size: 20px;
+    font: bold;
+    font-weight: 600;
+    color: #9C6644;
 }
