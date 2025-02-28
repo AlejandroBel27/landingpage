@@ -1,4 +1,4 @@
-# 📝 Asignación Formulario  
+# 📝 Asignación landingpage  
 ## 👤 Rubén Alejandro Saldaña Beltrán
 ## 👤 Linda Fernanda Moreno Nuñez
 ### 🌐 Aplicaciones Web  
