@@ -75,7 +75,7 @@ h3{
 
 .card:hover {
     transform: translateY(-15px);
-    box-shadow: 0px 8px 15px rgba(0, 0, 0.3);
+    box-shadow: 0px 8px 15px #9C6644;
 }
 
 .item {
@@ -98,7 +98,7 @@ h3{
 
 .imagen:hover {
     transform: translateY(-15px);
-    box-shadow: 0px 8px 15px rgba(0, 0, 0.3);
+    box-shadow: 0px 8px 15px #9C6644;
 }
 
 .mapa {
@@ -106,11 +106,11 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 60%;
     height: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     background-color: #ede0d4;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0.3);
+    box-shadow: 0px 8px 15px #9C6644;
 }
 .horariomap{
     display: flex;
@@ -124,4 +124,74 @@ h3{
     font: bold;
     font-weight: 600;
     color: #9C6644;
+}
+.formcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.form{
+    display: flex;
+    width: 600px;
+    height: 500px;
+    justify-content: center;
+    
+    align-items: center;
+    flex-direction: column;
+    font-family: "Playwrite IT Moderna", cursive;
+    background-color: #ede0d4;
+    box-shadow: 0px 8px 15px #9C6644;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}
+
+.form label{
+    font-size: 20px;
+    font: bold;
+    font-weight: 900;
+    color: #9C6644;
+}
+
+.form input{
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #9C6644;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+input:hover{
+    background-color: #9C6644;
+    color: #ede0d4;
+}
+
+input:focus{
+    background-color: #9C6644;
+    color: #ede0d4;
+}
+
+
+button {
+    outline: none;
+    color: #ede0d4;
+    padding: 1em;
+    font-family: "Playwrite IT Moderna", cursive;
+    padding-left: 3em;
+    padding-right: 3em;
+    border: 2px dashed #ede0d4;
+    border-radius: 15px;
+    background-color: #9C6644;
+    box-shadow: 0 0 0 4px #ede0d4, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+    transition: .1s ease-in-out, .4s color;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    font: bold;
+    font-weight: 500;
 }
